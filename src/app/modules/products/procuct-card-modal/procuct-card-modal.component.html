@@ -1,0 +1,49 @@
+<div class="modal-wrapper">
+  <div class="justify-between ">
+    <h2 class="mb-2 head-tabel modalTitle"> {{ data.title }} </h2>
+  </div>
+  <div class="modal-content" style="margin-top: 10%;">
+
+
+    <div class="modal-body row">
+      <div class="col-md-6 col-sm-6" *ngIf="data">
+
+        <img *ngIf="data.image" class="row-img " [src]="data.image">
+        <img *ngIf="!data.image" class="row-img " src="../../../../../assets/images/e-commerce.png">
+      </div>
+      <div class="card col-md-6">
+        <div class="card-header" style="align-items: center;">
+          <span class="alert alery-danger"> {{data.price}} $ </span>
+          <p> {{data.category |uppercase}} </p>
+        </div>
+        <span style="padding: 10%;">
+          {{data.description}}
+        </span>
+        <div class="card-footer row">
+          <p>
+            {{data.rating?.rate}} <mat-icon class="selected-star pointer mx-2 example-tab-icon ">star</mat-icon>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="modal-footer" style="margin-top: 3%;">
+    <div class="modal-footer">
+      <div class="col-md-4 col-sm-4">
+        <p style="margin-top: 30%;">
+          <button class="block btn btn-default" >
+            <mat-icon title="{{'PRODUCTS.addToCart'|translate}}" (click)="addToCart()" *ngIf="!data.selected"
+            [ngStyle]="{'color':'#128300'}">add_shopping_cart</mat-icon>
+          <mat-icon title="{{'PRODUCTS.removeFromCart'|translate}}" (click)="addToCart()" *ngIf="data.selected"
+            [ngStyle]="{'color':'#df1a33'}">remove_shopping_cart</mat-icon>
+          </button>
+   
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</div>

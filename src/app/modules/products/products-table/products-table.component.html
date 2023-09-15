@@ -1,0 +1,23 @@
+
+<mat-accordion class="example-headers-align">
+  <mat-expansion-panel *ngFor="let catigory of catigoriesList" [expanded]="activeCategory === catigory" (opened)="setStep(catigory)" hideToggle="true">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <!-- <mat-icon>account_circle</mat-icon> -->
+        <mat-icon  >arrow_drop_down</mat-icon>
+        {{catigory |uppercase}}
+      </mat-panel-title>
+
+    </mat-expansion-panel-header>
+      <div class="row" *ngIf="dataList.length != 0">
+        <div class="col-lg-3 col-md-6 col-sm-10" *ngFor="let product of dataList">
+          <app-product-card  [product]="product"></app-product-card>
+        </div>
+      </div>
+      <div *ngIf="dataList.length == 0">
+          <ngx-skeleton-loader count="7"></ngx-skeleton-loader>
+      </div>
+    <mat-action-row>
+    </mat-action-row>
+  </mat-expansion-panel>
+</mat-accordion>

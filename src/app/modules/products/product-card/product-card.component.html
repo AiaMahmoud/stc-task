@@ -1,0 +1,34 @@
+<div class="card card-layout">
+  <div title="{{product.title}}" class="card-header fixed-card-header ">
+    <p class="cart-icon-display">
+      <span>{{ product.title | slice: 0:30 }}
+        <span *ngIf="product.title.length >30"> .. </span> </span>
+    </p>
+  </div>
+  <div *ngIf="product" class="card-body card-body-container" >
+    <div style="align-items: center;" (click)="openProduct()" title="{{'clickToShow'|translate}}" style="cursor: pointer;">
+      <div class="row">
+        <img *ngIf="product.image" class="row-img col-md-8 col-sm-8" [src]="product.image">
+        <img *ngIf="!product.image" class="row-img col-md-8 col-sm-8" src="../../../../../assets/images/e-commerce.png">
+        <div class="col-md-4 col-sm-4">
+          <p style="margin-top: 30%;">
+          <mat-icon title="{{'PRODUCTS.addToCart'|translate}}" (click)="addToCart()" *ngIf="!product.selected"
+            [ngStyle]="{'color':'#128300'}">add_shopping_cart</mat-icon>
+          <mat-icon title="{{'PRODUCTS.removeFromCart'|translate}}" (click)="addToCart()" *ngIf="product.selected"
+            [ngStyle]="{'color':'#df1a33'}">remove_shopping_cart</mat-icon>
+          </p>
+          <span class="badge">{{product.price}} $ </span>
+        </div>
+      </div>
+      <div id="scroll-container">
+        <div id="scroll-text">{{product.description}}
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <ngb-rating class="ngb-rating" [max]="5" [(rate)]="starRating" [readonly]="false"></ngb-rating>
+    </div>
+
+  </div>
+
+</div>

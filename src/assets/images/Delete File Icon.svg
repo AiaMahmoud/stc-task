@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="990" viewBox="0 0 1920 990">
+  <g id="Group_84317" data-name="Group 84317" transform="translate(13388 13302)">
+    <rect id="Rectangle_2582" data-name="Rectangle 2582" width="1920" height="990" transform="translate(-13388 -13302)" fill="#fff"/>
+    <rect id="Rectangle_2583" data-name="Rectangle 2583" width="530" height="536" rx="10" transform="translate(-12693 -13082)" fill="#fff"/>
+    <text id="حذف_الملف" data-name="حذف الملف" transform="translate(-12427.438 -12996)" fill="#ff4949" font-size="28" font-family="Almarai-Bold, Almarai" font-weight="700" letter-spacing="0.02em"><tspan x="-70" y="0">حذف الملف</tspan></text>
+    <g id="search_bar" transform="translate(-12452.979 -12661)">
+      <rect id="Rectangle_293" data-name="Rectangle 293" width="189.541" height="60" rx="10" transform="translate(45)" fill="#ff4949"/>
+      <text id="search...-2" transform="translate(139.77 33.966)" fill="#fff" font-size="18" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="-44" y="0">حذف الملف</tspan></text>
+    </g>
+    <g id="search_bar-2" data-name="search_bar" transform="translate(-12682.563 -12661)">
+      <rect id="Rectangle_293-2" data-name="Rectangle 293" width="189.541" height="60" rx="10" transform="translate(45)" fill="#ebebeb"/>
+      <text id="search...-2-2" data-name="search...-2" transform="translate(139.77 33.966)" fill="#707070" font-size="18" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="-18" y="0">رجوع</tspan></text>
+    </g>
+    <g id="svgexport-7_32_" data-name="svgexport-7 (32)" transform="translate(-12485.438 -12913)">
+      <path id="Path_84207" data-name="Path 84207" d="M45.687,121.875h-32.5a4.062,4.062,0,0,1-4.062-4.062V12.188a4.062,4.062,0,0,1,4.062-4.062H57.875V28.438A12.2,12.2,0,0,0,70.062,40.625H90.375v4.063a4.062,4.062,0,1,0,8.125,0V39.934a12.141,12.141,0,0,0-3.567-8.621L67.186,3.567A12.106,12.106,0,0,0,58.574,0H13.187A12.2,12.2,0,0,0,1,12.188V117.813A12.2,12.2,0,0,0,13.187,130h32.5a4.062,4.062,0,1,0,0-8.125ZM84.631,32.5H70.062A4.062,4.062,0,0,1,66,28.438V13.869Z" transform="translate(0 0)" fill="#707070"/>
+      <path id="Path_84208" data-name="Path 84208" d="M42.562,7A36.562,36.562,0,1,0,79.125,43.562,36.607,36.607,0,0,0,42.562,7Zm0,65A28.437,28.437,0,1,1,71,43.562,28.469,28.469,0,0,1,42.562,72Z" transform="translate(35.625 49.875)" fill="#ff4949"/>
+      <path id="Path_84209" data-name="Path 84209" d="M38.506,10.776a4.063,4.063,0,0,0-5.744,0L24.141,19.4,15.52,10.776a4.062,4.062,0,1,0-5.745,5.745l8.621,8.62L9.776,33.761a4.065,4.065,0,0,0,5.752,5.744l8.621-8.621,8.621,8.621a4.065,4.065,0,0,0,5.753-5.744l-8.637-8.621,8.621-8.621A4.063,4.063,0,0,0,38.506,10.776Z" transform="translate(54.047 68.297)" fill="#ff4949"/>
+    </g>
+    <text id="search...-2-3" data-name="search...-2" transform="translate(-12427.438 -12735)" fill="#707070" font-size="18" font-family="Almarai-Regular, Almarai"><tspan x="-123" y="0">هل أنت متأكد من حذف هذا الملف</tspan></text>
+  </g>
+</svg>
